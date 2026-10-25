@@ -4,16 +4,12 @@
 **Группа:** SFLT-58  
 **Дата:** 25 октября 2026
 
-[![Nmap](https://img.shields.io/badge/Nmap-7.94SVN-blue)](https://nmap.org/)
-[![Metasploitable](https://img.shields.io/badge/Metasploitable-2-red)](https://sourceforge.net/projects/metasploitable/)
-
 ---
 
 ## 📋 Содержание
 
 - [Задание 1: Сканирование Metasploitable и поиск уязвимостей](#-задание-1-сканирование-metasploitable-и-поиск-уязвимостей)
 - [Задание 2: SYN, FIN, Xmas и UDP-сканирование](#-задание-2-syn-fin-xmas-и-udp-сканирование)
-- [Воспроизведение](#-воспроизведение)
 
 ---
 
@@ -143,16 +139,4 @@ nmap -sU --top-ports 20 127.0.0.1
 
 ---
 
-## 🔄 Воспроизведение
 
-```bash
-./lab/start-metasploitable.sh          # Metasploitable 2 → 127.0.0.1
-./scripts/task1-nmap.sh 127.0.0.1      # задание 1
-./scripts/capture-scans-pcap.sh        # pcap на lo (задание 2)
-./scripts/task2-scans.sh 127.0.0.1     # SYN/FIN/Xmas/UDP
-python3 scripts/render-screenshots.py  # PNG для README
-./lab/stop-metasploitable.sh
-```
-
-Raw-сканы без root: [scripts/nmap-raw.sh](scripts/nmap-raw.sh) (Docker).  
-Открыть pcap: `wireshark pcap/task2-syn.pcap` (интерфейс **lo**).

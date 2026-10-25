@@ -76,7 +76,7 @@
 
 ### 📸 Скриншот
 
-![Nmap -sV](https://github.com/sychnepticaowl-spec/13-01-Sych-Kirill/blob/main/screenshots/task1-nmap-sV.png)
+![Nmap -sV](screenshots/task1-nmap-sV.png)
 *Рисунок 1 — `nmap -sV --reason 127.0.0.1`*
 
 ---
@@ -125,16 +125,16 @@ nmap -sU --top-ports 20 127.0.0.1
 
 ### 📸 Скриншоты
 
-![SYN Wireshark](https://github.com/sychnepticaowl-spec/13-01-Sych-Kirill/blob/main/screenshots/task2-wireshark-syn.png)
+![SYN Wireshark](screenshots/task2-wireshark-syn.png)
 *Рисунок 2 — SYN-скан, порт 22: SYN / SYN-ACK / RST*
 
-![FIN Wireshark](https://github.com/sychnepticaowl-spec/13-01-Sych-Kirill/blob/main/screenshots/task2-wireshark-fin.png)
+![FIN Wireshark](screenshots/task2-wireshark-fin.png)
 *Рисунок 3 — FIN-скан: только FIN от клиента, ответа нет*
 
-![UDP Wireshark](https://github.com/sychnepticaowl-spec/13-01-Sych-Kirill/blob/main/screenshots/task2-wireshark-udp.png)
+![UDP Wireshark](screenshots/task2-wireshark-udp.png)
 *Рисунок 4 — UDP-скан: ICMP port unreachable*
 
-![SYN nmap](https://github.com/sychnepticaowl-spec/13-01-Sych-Kirill/blob/main/screenshots/task2-nmap-syn.png)
+![SYN nmap](screenshots/task2-nmap-syn.png)
 *Рисунок 5 — вывод `nmap -sS`*
 
 ---
